@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading System</title>
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="./assets/style.css"/>
+    <!-- css link -->
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- google fonts -->
+</head>
+<body>
+    <img
+    src="https://i.postimg.cc/4nRdNQqr/Faria-Rasel-1.png"
+    style="display: none"
+    alt="Faria Rasel Raisa Project Submission"
+  />
+    <div class="container">
+        <div class="left-box">
+            <h1>Result</h1>
+            <div class="p-g-t"><h2>Percentage - <span class="per"></span></h2>
+                <h2>Grade - <span class="gra"></span></h2>
+                <h2>Total - <span class="to"></span></h2></div>
+            
+        </div>
+        <div class="content">
+            <div class="right-box">
+                <input type="number" id="c" placeholder="C Programming"/>
+                <input type="number" id="mt" placeholder="Maths"/>
+                <input type="number" id="ph" placeholder="PHP"/>
+                <input type="number" id="ja" placeholder="Java"/>
+                <input type="number" id="csa" placeholder="Computer System architecture"/>
+                <button type="button" onclick="show_result()" >Show Result</button>
+            </div>
+        </div>
+        <div class="result">
+            <h2></h2>
+        </div>
+    </div>
+    <!-- JS file -->
+    <script src="./assets/app.js"></script>
+</body>
+</html>
